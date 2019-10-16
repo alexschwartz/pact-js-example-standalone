@@ -1,4 +1,6 @@
 #!/usr/bin/env bash
+set -o xtrace
+
 for f in pacts/*.json; do
   consumer=$(jq '.consumer.name' $f | sed s'/"//g')
   provider=$(jq '.provider.name' $f | sed s'/"//g')
