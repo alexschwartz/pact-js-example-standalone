@@ -16,7 +16,9 @@
   },
   "author": "RisingStack, Inc.",
   "dependencies": {
+    "async": "^3.1.0",
     "body-parser": "1.18.2",
+    "commander": "^3.0.2",
     "express": "4.16.2",
     "lodash": "^4.17.15",
     "npm-run-all": "4.1.2",
